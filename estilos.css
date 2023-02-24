@@ -318,34 +318,34 @@ html {
     margin: 10px 0px;
 }
 
-.contenedor-habilidades .habilidades .barras .barras-progreso1 {
+.contenedor-habilidades .habilidades .barras .barras-progreso1{
     background-color: #fff;
     width: 90%;
     height: 6px;
     animation: progreso1 3s forwards;
 }
 
-.contenedor-habilidades .habilidades .barras .barras-progreso2 {
+.contenedor-habilidades .habilidades .barras .barras-progreso2{
     background-color: #fff;
     width: 85%;
     height: 6px;
     animation: progreso2 3s forwards;
 }
 
-.contenedor-habilidades .habilidades .barras .barras-progreso3 {
+.contenedor-habilidades .habilidades .barras .barras-progreso3{
     background-color: #fff;
     width: 85%;
     height: 6px;
     animation: progreso3 3s forwards;
 }
 
-.contenedor-habilidades .habilidades .barras .barras-progreso4 {
+.contenedor-habilidades .habilidades .barras .barras-progreso4{
     background-color: #fff;
     width: 70%;
     height: 6px;
     animation: progreso4 3s forwards;
 }
-.ontenedor-habilidades .habilidades .barras .barras-progreso5 {
+.contenedor-habilidades .habilidades .barras .barras-progreso5{
     background-color: #fff;
     width: 85%;
     height: 6px;
