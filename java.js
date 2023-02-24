@@ -34,5 +34,4 @@ function habilidades() {
         document.getElementById("bd").classList.add("barras-progreso5");
         document.getElementById("py").classList.add("barras-progreso6");
     }
-
 }

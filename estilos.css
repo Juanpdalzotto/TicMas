@@ -101,7 +101,7 @@ html {
 }
 
 #inicio .contenido .presentacion h2 span {
-    font-size: 25px;
+    font-size: 40px;
     color: #c06122;
 }
 
@@ -133,9 +133,6 @@ html {
     color: #fff;
     display: none;
 }
-/* *********************/
-/* seccion S O B R E  M I */
-/* *********************/
 
 #sobremi {
     max-width: 1100px;
@@ -171,7 +168,7 @@ html {
 }
 
 #sobremi .sobremi h2 {
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
     margin: 20px 0;
     letter-spacing: 2px;
@@ -211,9 +208,7 @@ html {
     background-color: #c06122;
     color: #fff;
 }
-/* *********************/
-/* seccion S E R V I C I O S */
-/* *********************/
+
 
 #servicios {
     padding: 100px 15px;
@@ -228,7 +223,6 @@ html {
     color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
 }
 
 #servicios .fila {
@@ -405,7 +399,7 @@ html {
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -417,10 +411,6 @@ html {
         width: 60%;
     }
 }
-/* *********************/
-/* seccion P O R T F O L I O */
-/* *********************/
-
 #portfolio {
     max-width: 1100px;
     padding: 100px 0;
@@ -557,13 +547,6 @@ footer {
     padding: 30px 0;
 }
 
-footer a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin: 5px;
-    font-size: 26px;
-}
 /* *********************/
 /* seccion R E S P O N S I V E */
 /* *********************/
@@ -595,7 +578,7 @@ footer a {
         display: block;
     }
     #inicio .contenido .presentacion h2 {
-        font-size: 40px;
+        font-size: 60px;
     }
     /* seccion SOBRE MI */
     #sobremi {
@@ -751,4 +734,14 @@ img:hover
 {
     transform: scale(1.15);
     height: min-content;
+}
+
+#centrado
+{
+    margin: auto;
+}
+
+.nav1
+{
+    font-size: 20px;
 }
