@@ -1,0 +1,362 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilos.css">
+    <title>JPD Técnico Informático</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>JPD</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/juan-pablo-dalzotto-aa8984264/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/fradal.dalzotto.7"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/juanpablodal/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">¡Bienvenidos!</p>
+                <h2>Soy <span>Juan Pablo Dalzotto</span>, Técnico Informático</h2>
+                <p class="descripcion">Especializado en Reparación de Computadoras y Arduino.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img id="img1"src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Juan Pablo Dalzotto</span> </h2>
+            <h3>Técnico Informático</h3>
+            <p>Tengo 19 años, me considero una persona 
+                positiva y responsable con gran motivación. 
+                Soy capaz de adaptarme a cualquier 
+                circunstancia y dar siempre lo mejor de 
+                mí trabajando en equipo y fomentando 
+                valores de compañerismo.
+                </p>
+            <p>Mi objetivo principal es desarrollarme 
+                profesionalmente y evolucionar en mi 
+                sector, aplicando mis conocimientos 
+                y habilidades para una mejora continua.</p>
+            <a download="Curriculum_JuanPDalzotto" href="Curriculum_JuanPDalzotto.pdf">Descargar CV</a>
+            
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-computer"></i>
+                </i></span>
+                <h4>Presupuesto, Reparación y Armado de Equipo Informático</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-wifi"></i></span>
+                <h4>Instalacion de Redes</h4>
+                <hr>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-lightbulb"></i></i></span>
+                <h4>Proyectos Electrónicos Arduino</h4>
+                <hr>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-habilidades" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Armado y Mantenimiento de PC</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barras">
+                <div class="" id="am"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Redes</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barras">
+                <div class="" id="rd"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Programación Arduino</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barras">
+                <div class="" id="pa"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño Web</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barras">
+                <div class="" id="dw"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barras">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barras">
+                <div class="" id="py"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2023 - En Proceso</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Tecnicatura en Programación</h4>
+                                <p>Unahur</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2016 - 2022</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Técnico Personal y Profesional en Informática</h4>
+                                <p>Instituto Sagrado Corazón de Jesus Hurlingham</p>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Reparación PC</h4>
+                                <p>Reparando</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programación Python</h4>
+                                <p>IEE ITBA</p>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programación desde 0</h4>
+                                <p>Egg</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 Año</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Mantenimiento de redes y equipos informáticos.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Colegio Especial Hurlingham</h4>
+                                <p>Técnico de Mantenimiento</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 Año</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Reparación en forma remota de computadoras.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Reparación de PC home office</h4>
+                                <p>Técnico</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Trabajos Realziados</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <a href="vid/caja_interactiva.mp4"><img src="img/trabajo-2.jpeg" alt="Los Tejos" /></a>
+                <div class="info">
+                    <p>Caja Interactiva</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/trabajo-4.jpg" alt="">
+                <div class="info">
+                    <p>Estación Atmosférica</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/trabajo-3.jpg" alt="">
+                <div class="info">
+                    <p>Reparación de Robots Arduino</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fila">
+            <div class="proyecto">
+                <a href="vid/TrailerFeuer.mp4"><img src="img/trabajo-5.png" alt="" /></a>
+                <div class="info">
+                    <p>Videojuego "Feuer"</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/trabajo-1.PNG" alt="">
+                <div class="info">
+                    <p>Página Web</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="img/trabajo-6.jpg" alt="">
+                <div class="info">
+                    <p>Instalacion de Redes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="https://formspree.io/f/meqwggjo" method="POST">
+                <div class="fila mitad">
+                    <input type="text" class="form_input" placeholder="Nombre:" name="name"class="input-mitad" required> 
+                    <input type="email" class="form_input" placeholder="Email:" name="_replyto" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" required>
+                </div>
+                <div class="fila">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje:" class="input-full" required></textarea>
+                </div>
+                <input type="submit" class="btn-enviar" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
