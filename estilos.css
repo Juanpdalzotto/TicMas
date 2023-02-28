@@ -174,7 +174,15 @@ html {
     color: #c06122;
 }
 
-#sobremi .sobremi h3 {
+#sobremi .sobremi h3.titulo-seccion {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#experiencia{
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -580,23 +588,23 @@ footer {
         font-size: 25px;
         text-align: center;
     }
-    .resumen .info
+    #experiencia .info
     {
         flex-direction: column;
     }
-    .resumen .col
+    #experiencia .col
     {
         margin: auto;
     }
-    .resumen .contenido-seccion .info .col table{
+    #experiencia .contenido-seccion .info .col table{
         margin-bottom: 50px;
         border-collapse: collapse;
     }
-    .resumen .contenido-seccion .info .col.titulo-experiencia{
+    #experiencia .contenido-seccion .info .col.titulo-experiencia{
         margin: auto;
         text-align: center;
     }
-    .resumen .contenido-seccion .info .col{
+    #experiencia .contenido-seccion .info .col{
         width: 60%;
     }
     #servicios {
@@ -647,30 +655,30 @@ footer {
     text-align: center;
    }
 }
-.resumen{
+#experiencia{
     background-color: #e6e6e6;
     padding: 70px 0 100px 0;
     text-align: center;
 }
-.resumen .contenido-seccion{
+#experiencia .contenido-seccion{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
 }
-.resumen .contenido-seccion h3{
+#experiencia .contenido-seccion h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-.resumen .contenido-seccion .info{
+#experiencia .contenido-seccion .info{
     text-align: left;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.resumen .contenido-seccion .info .col{
+#experiencia .contenido-seccion .info .col{
     width: 80%;
 }
-.resumen .contenido-seccion .info .col .titulo-experiencia{
+#experiencia .contenido-seccion .info .col .titulo-experiencia{
     display: inline-block;
     color: #c06122;
     font-weight: bold;
@@ -678,48 +686,48 @@ footer {
     padding: 10px;
     margin: auto;
 }
-.resumen .contenido-seccion .info .col table{
+#experiencia .contenido-seccion .info .col table{
     margin-top: 30px;
     border-collapse: collapse;
 }
-.resumen .contenido-seccion .info .col table .datos{
+#experiencia .contenido-seccion .info .col table .datos{
     width: 40%;
     border-bottom: 1px solid #bab9b9;
 }
-.resumen .contenido-seccion .info .col table h4{
+#experiencia .contenido-seccion .info .col table h4{
     margin-top: 10px;
 }
-.resumen .contenido-seccion .info .col table h3{
+#experiencia .contenido-seccion .info .col table h3{
     font-size: 20px;
     margin-bottom: 5px;
 }
-.resumen .contenido-seccion .info .col table p{
+#experiencia .contenido-seccion .info .col table p{
     font-size: 14px;
 }
-.resumen .contenido-seccion .info .col table .descripcion{
+#experiencia .contenido-seccion .info .col table .descripcion{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
-.resumen .contenido-seccion .info .col table{
+#experiencia .contenido-seccion .info .col table{
     margin-top: 30px;
     border-collapse: collapse;
 }
-.resumen .contenido-seccion .info .col table .datos{
+#experiencia .contenido-seccion .info .col table .datos{
     width: 40%;
     border-bottom: 1px solid #bab9b9;
 }
-.resumen .contenido-seccion .info .col table h4{
+#experiencia .contenido-seccion .info .col table h4{
     margin-top: 10px;
 }
-.resumen .contenido-seccion .info .col table h3{
+#experiencia .contenido-seccion .info .col table h3{
     font-size: 20px;
     margin-bottom: 5px;
 }
-.resumen .contenido-seccion .info .col table p{
+#experiencia .contenido-seccion .info .col table p{
     font-size: 14px;
 }
 
-.resumen .contenido-seccion .info .col table .descripcion{
+#experiencia .contenido-seccion .info .col table .descripcion{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }

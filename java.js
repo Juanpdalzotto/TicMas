@@ -6,6 +6,7 @@ function seleccionar(link) {
     opciones[2].className = "";
     opciones[3].className = "";
     opciones[4].className = "";
+    opciones[5].className = "";
     link.className = "seleccionado";
     var x = document.getElementById("nav");
     x.className = "";
