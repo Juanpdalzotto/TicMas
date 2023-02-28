@@ -9,9 +9,6 @@
 html {
     scroll-behavior: smooth;
 }
-/* *********************/
-/* seccion I N I C I O */
-/* *********************/
 
 #inicio {
     background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
@@ -164,7 +161,6 @@ html {
     color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
 }
 
 #sobremi .sobremi h2 {
@@ -293,6 +289,7 @@ html {
 .contenedor-habilidades .habilidades {
     max-width: 600px;
     margin: 30px auto;
+    width: 80%;
 }
 
 .contenedor-habilidades .habilidades .info {
@@ -421,7 +418,6 @@ html {
     color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
 }
 
 #portfolio .fila {
@@ -432,6 +428,7 @@ html {
 
 #portfolio .fila .proyecto {
     max-width: 350px;
+    width: 80%;
     border: 1px solid #000;
     margin: 0 10px;
     position: relative;
@@ -467,10 +464,6 @@ html {
     opacity: 1;
     bottom: 0;
 }
-
-/* *********************/
-/* seccion C O N T A C T O */
-/* *********************/
 
 #contacto {
     padding: 100px 15px;
@@ -518,7 +511,6 @@ html {
     color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
 }
 
 #contacto .btn-enviar {
@@ -533,9 +525,6 @@ html {
     background-color: #c06122;
     color: #fff;
 }
-/* *********************/
-/* seccion F O O T E R */
-/* *********************/
 
 footer {
     background-color: #000;
@@ -543,10 +532,6 @@ footer {
     text-align: center;
     padding: 30px 0;
 }
-
-/* *********************/
-/* seccion R E S P O N S I V E */
-/* *********************/
 
 @media screen and (max-width: 800px) {
     .redes {
@@ -577,7 +562,6 @@ footer {
     #inicio .contenido .presentacion h2 {
         font-size: 60px;
     }
-    /* seccion SOBRE MI */
     #sobremi {
         padding: 50px 0;
         display: block;
@@ -596,7 +580,25 @@ footer {
         font-size: 25px;
         text-align: center;
     }
-    /* seccion MIS SERVICIOS */
+    .resumen .info
+    {
+        flex-direction: column;
+    }
+    .resumen .col
+    {
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-bottom: 50px;
+        border-collapse: collapse;
+    }
+    .resumen .contenido-seccion .info .col.titulo-experiencia{
+        margin: auto;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 60%;
+    }
     #servicios {
         padding: 50px 15px;
     }
@@ -606,11 +608,9 @@ footer {
     #servicios .fila .servicio {
         margin: 10px auto;
     }
-    /* seccion HABLIDADES MI */
     .ontenedor-habilidades {
         padding: 50px 20px;
     }
-    /* seccion PORTFOLIO */
     #portfolio {
         padding: 50px 0;
     }
@@ -620,7 +620,6 @@ footer {
     #portfolio .fila .proyecto {
         margin: 10px auto;
     }
-    /* seccion CONTACTO */
     #contacto {
         padding: 50px 15px;
     }
@@ -632,11 +631,25 @@ footer {
         width: 100%;
         margin-bottom: 15px;
     }
+    #inicio .contenido .presentacion h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    #inicio .contenido .presentacion h2 span {
+        font-size: 35px;
+        color: #c06122;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 30px;
+    }
+   #centrar{
+    text-align: center;
+   }
 }
-
 .resumen{
     background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
+    padding: 70px 0 100px 0;
     text-align: center;
 }
 .resumen .contenido-seccion{
@@ -655,15 +668,15 @@ footer {
     margin-top: 30px;
 }
 .resumen .contenido-seccion .info .col{
-    width: 45%;
+    width: 80%;
 }
-.resumen .contenido-seccion .info .col .titulo{
+.resumen .contenido-seccion .info .col .titulo-experiencia{
     display: inline-block;
     color: #c06122;
     font-weight: bold;
     border: 2px solid #c06122;
     padding: 10px;
-
+    margin: auto;
 }
 .resumen .contenido-seccion .info .col table{
     margin-top: 30px;
@@ -682,19 +695,11 @@ footer {
 }
 .resumen .contenido-seccion .info .col table p{
     font-size: 14px;
-}
-.resumen .contenido-seccion .info .col table .promedio{
-    display: block;
-    color: #c06122;
-    margin-top: 10px;
-    font-weight: bold;
 }
 .resumen .contenido-seccion .info .col table .descripcion{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
-
-
 .resumen .contenido-seccion .info .col table{
     margin-top: 30px;
     border-collapse: collapse;
@@ -713,12 +718,7 @@ footer {
 .resumen .contenido-seccion .info .col table p{
     font-size: 14px;
 }
-.resumen .contenido-seccion .info .col table .promedio{
-    display: block;
-    color: #c06122;
-    margin-top: 10px;
-    font-weight: bold;
-}
+
 .resumen .contenido-seccion .info .col table .descripcion{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;

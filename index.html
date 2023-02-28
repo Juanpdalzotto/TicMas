@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="estilos.css">
     <title>JPD Técnico Informático</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    
 </head>
 
 <body>
@@ -16,7 +15,7 @@
             <header>
                 <div class="contenido-header">
                     <div id="centrado">
-                        <nav id="nav" class="">
+                        <nav id="nav">
                             <ul id="links">
                                 <li><a class="nav1" href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                                 <li><a class="nav1" href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
@@ -26,13 +25,9 @@
                             </ul>
                         </nav>
                     </div>
-
-                    <!-- Icono del menu responsive -->
-                    <div id="icono-nav" onclick="responsiveMenu()">
+                    <div id="icono-nav" onclick="menuResponsive()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
-
-
                     <div class="redes">
                         <a href="https://www.linkedin.com/in/juan-pablo-dalzotto-aa8984264/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://www.facebook.com/fradal.dalzotto.7"><i class="fa-brands fa-facebook"></i></a>
@@ -48,14 +43,12 @@
             </div>
         </div>
     </section>
-
-    <!-- SECCION S O B R E M I -->
     <section id="sobremi">
         <div class="contenedor-foto">
             <img id="img1"src="img/foto.jpg" alt="">
         </div>
         <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi</p>
+            <p class="titulo-seccion">Sobre mí</p>
             <h2>Hola, Soy <span>Juan Pablo Dalzotto</span> </h2>
             <h3>Técnico Informático</h3>
             <p>Tengo 19 años, me considero una persona 
@@ -69,7 +62,9 @@
                 profesionalmente y evolucionar en mi 
                 sector, aplicando mis conocimientos 
                 y habilidades para una mejora continua.</p>
-            <a download="Curriculum_JuanPDalzotto" href="Curriculum_JuanPDalzotto.pdf">Descargar CV</a>
+                <div id="centrar">
+                    <a download="Curriculum_JuanPDalzotto" href="Curriculum_JuanPDalzotto.pdf">Descargar CV</a>   
+                </div>
         </div>
     </section>
 
@@ -164,12 +159,14 @@
         </div>
     </div>
 
-    <section class="resumen" id="resumen">
+    <section class="resumen">
         <div class="contenido-seccion">
             <h3>Mi preparación y experiencia</h3>
             <div class="info">
                 <div class="col">
-                    <span class="titulo">Educación</span>
+                    <div id="centrar">
+                    <span class="titulo-experiencia">Educación</span>
+                    </div>
                     <table>
                         <tr>
                             <td class="datos">
@@ -196,9 +193,6 @@
                             </td>
                         </tr>
                     </table>
-
-
-
                     <table>
                         <tr>
                             <td class="datos">
@@ -239,10 +233,11 @@
                             </td>
                         </tr>
                     </table>
-
                 </div>
                 <div class="col">
-                    <span class="titulo">Experiencia Laboral</span>
+                    <div id="centrar">
+                        <span class="titulo-experiencia">Experiencia Laboral</span>
+                    </div>
                     <table>
                         <tr>
                             <td class="datos">
@@ -259,7 +254,6 @@
                             </td>
                         </tr>
                     </table>
-
                     <table>
                         <tr>
                             <td class="datos">
@@ -281,7 +275,7 @@
         </div>
     </section>
     <section id="portfolio">
-        <h3 class="titulo-seccion">Trabajos Realziados</h3>
+        <h3 class="titulo-seccion">Trabajos Realizados</h3>
         <div class="fila">
             <div class="proyecto">
                 <a href="vid/caja_interactiva.mp4"><img src="img/trabajo-2.jpeg" alt="Los Tejos" /></a>
